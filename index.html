@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Dhanush S — Data Science, AI & Generative AI Portfolio</title>
+  <meta name="description" content="Dhanush S — Data Science, Machine Learning and Generative AI portfolio. Analytics dashboards, NLP and RAG projects, internships and certifications.">
+  <meta name="author" content="Dhanush S">
+  <meta name="theme-color" content="#07080c">
+  <meta property="og:title" content="Dhanush S — Data Science, AI & Generative AI">
+  <meta property="og:description" content="Turning data into intelligence and ideas into reality. Projects across analytics, machine learning, NLP and RAG.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Geist:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script>
+    (function(){var d=document.documentElement;d.classList.add('js');
+      var rm=false;try{rm=matchMedia('(prefers-reduced-motion: reduce)').matches}catch(e){}
+      if(rm)d.classList.add('reduced');else d.classList.add('has-loader');})();
+  </script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Cinematic intro -->
+<div class="loader" id="loader" role="status" aria-live="polite" aria-label="Loading portfolio">
+  <div class="loader-panel"></div>
+  <div class="loader-inner">
+    <div class="loader-mark" aria-hidden="true"><span class="lm-d">D</span><span class="lm-s">S</span></div>
+    <div class="loader-count"><span id="loaderNum">0</span><small>%</small></div>
+    <div class="loader-bar"><i id="loaderBar"></i></div>
+    <p class="loader-line">Loading data, models and ideas</p>
+    <button class="loader-skip" id="loaderSkip" type="button">Skip intro</button>
+  </div>
+</div>
+
+<div class="ambient" aria-hidden="true"><i class="amb amb-a"></i><i class="amb amb-b"></i><i class="amb amb-c"></i><i class="noise"></i></div>
+<div class="cursor" id="cursor" aria-hidden="true"><i class="cursor-dot"></i><i class="cursor-ring"><span></span></i></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#home" aria-label="Dhanush S — back to top"><span class="brand-mark">DS</span><span class="brand-name">Dhanush S</span></a>
+  <nav class="nav-links" id="navLinks" aria-label="Primary">
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#approach">RAG</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#credentials">Certificates</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn-solid btn-sm nav-cta" href="assets/resume.pdf" target="_blank" rel="noopener" data-magnetic>Résumé</a>
+  <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+</header>
+
+<main id="main">
+<!-- HERO -->
+<section class="hero" id="home" data-theme="violet">
+  <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="hero-spot" id="heroSpot" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="hello"><span class="dot"></span><span data-hero="fade">Hello, I’m Dhanush S.</span></p>
+      <h1 class="hero-title" id="heroTitle" data-split="words">Turning Data Into <span class="grad">Intelligence</span> &amp; Ideas Into <span class="grad">Reality.</span></h1>
+      <ul class="role-list" data-hero="fade" aria-label="Focus areas"><li>Data Science</li><li>AI</li><li>Machine Learning</li><li>Generative AI</li></ul>
+      <p class="hero-sum" data-hero="fade">Computer Science graduate who turns messy datasets into clear analytics, practical machine-learning workflows and grounded GenAI experiences.</p>
+      <div class="hero-cta" data-hero="fade">
+        <a class="btn btn-solid" href="#projects" data-magnetic>Explore projects</a>
+        <a class="btn btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener" data-magnetic>Résumé</a>
+        <a class="icon-link" href="https://github.com/dhanush0823-git" target="_blank" rel="noopener" aria-label="GitHub profile" data-magnetic><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+        <a class="icon-link" href="https://www.linkedin.com/in/dhanush-s-784190358/" target="_blank" rel="noopener" aria-label="LinkedIn profile" data-magnetic><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.07c0-1.2-.02-2.76-1.68-2.76-1.69 0-1.95 1.31-1.95 2.67V21h-4z"/></svg></a>
+      </div>
+    </div>
+    <div class="hero-stage" id="heroStage">
+      <div class="orbit o1"><i></i></div><div class="orbit o2"><i></i><i></i></div><div class="orbit o3"><i></i></div>
+      <div class="portrait" id="portrait" data-tilt-hero>
+        <div class="portrait-border"></div>
+        <figure class="portrait-img"><img src="assets/images/dhanush-profile.webp" srcset="assets/images/dhanush-profile-sm.webp 400w, assets/images/dhanush-profile.webp 800w" sizes="(max-width:900px) 70vw, 420px" width="800" height="1000" alt="Dhanush S in a black tuxedo against a blue backdrop" fetchpriority="high"></figure>
+        <figcaption class="portrait-cap"><strong>Dhanush S</strong><span>Data Science · AI</span></figcaption>
+        <i class="portrait-shine"></i>
+      </div>
+      <div class="chip chip-py" data-depth="30"><b>Py</b>Python</div>
+      <div class="chip chip-sql" data-depth="46"><b>SQL</b>SQL</div>
+      <div class="chip chip-ai" data-depth="22"><b>AI</b>Machine learning</div>
+      <div class="chip chip-rag" data-depth="38"><b>RAG</b>Retrieval</div>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span class="cue-line"><i></i></span><span>Scroll</span></a>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-skew" id="marqueeSkew"><div class="marquee-track" id="marqueeTrack">
+  <span>Data Science</span><b>✳</b><span>Machine Learning</span><b>✳</b><span>Generative AI</span><b>✳</b><span>NLP</span><b>✳</b><span>Power BI</span><b>✳</b><span>RAG &amp; Vector Search</span><b>✳</b>
+  <span>Data Science</span><b>✳</b><span>Machine Learning</span><b>✳</b><span>Generative AI</span><b>✳</b><span>NLP</span><b>✳</b><span>Power BI</span><b>✳</b><span>RAG &amp; Vector Search</span><b>✳</b>
+</div></div></div>
+
+<!-- ABOUT -->
+<section class="section" id="about" data-theme="lime">
+  <div class="wrap">
+    <p class="statement" id="statement">I turn messy data into decisions, and language models into tools that stay grounded in real sources. I care about the question first, the method second and the result being useful to someone.</p>
+    <div class="stats" id="stats">
+      <div class="stat"><strong><span data-count="30000" data-suffix="+">30,000+</span></strong><p>business records analysed during the VCodez internship</p></div>
+      <div class="stat"><strong><span data-count="50000" data-suffix="+">50,000+</span></strong><p>sales transactions explored in the e-commerce analytics project</p></div>
+      <div class="stat"><strong><span data-count="40" data-suffix="%">40%</span></strong><p>less manual reporting effort through Power BI dashboards</p></div>
+      <div class="stat"><strong><span data-count="8.05" data-decimals="2">8.05</span></strong><p>CGPA, B.E. Computer Science &amp; Engineering</p></div>
+    </div>
+    <div class="about-grid">
+      <div class="code-card" data-tilt data-reveal>
+        <div class="code-head"><span class="lights"><i></i><i></i><i></i></span><span class="mono">dhanush.py</span><button class="copy-btn" id="copyCode" type="button">Copy</button></div>
+        <pre id="profileCode"><code><span class="k">class</span> <span class="n">Dhanush</span>:
+    role     = <span class="s">"Data Science &amp; AI"</span>
+    degree   = <span class="s">"B.E. Computer Science · 2026"</span>
+    tools    = [<span class="s">"Python"</span>, <span class="s">"SQL"</span>, <span class="s">"Power BI"</span>]
+    explore  = [<span class="s">"NLP"</span>, <span class="s">"RAG"</span>, <span class="s">"Embeddings"</span>]
+
+    <span class="k">def</span> <span class="f">approach</span>(self, problem):
+        understand(problem)
+        build_a_solution()
+        <span class="k">return</span> <span class="s">"Make it useful."</span></code></pre>
+        <div class="code-foot"><i></i> Ready to build <span class="mono">Python 3.x</span></div>
+      </div>
+      <div class="about-cards">
+        <article class="icard" data-tilt data-reveal><span class="icard-tag">Education</span><h3>B.E. Computer Science &amp; Engineering</h3><p>Hindusthan College of Engineering and Technology, Coimbatore. Graduating 2026 with a CGPA of 8.05.</p></article>
+        <article class="icard" data-tilt data-reveal><span class="icard-tag">Technical interests</span><h3>Analytics, ML, NLP &amp; RAG</h3><p>Dashboards that answer business questions, supervised learning, text classification and retrieval-backed GenAI.</p></article>
+        <article class="icard" data-tilt data-reveal><span class="icard-tag">Career objective</span><h3>Contribute, then compound</h3><p>Join data, analytics and applied-AI teams where I can ship useful work and keep learning by building.</p></article>
+        <article class="icard" data-tilt data-reveal><span class="icard-tag">How I solve problems</span><h3>Question → data → result</h3><p>Understand the problem, clean and validate the data, keep the workflow reproducible and keep AI answers grounded in context.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects" data-theme="violet">
+  <div class="wrap">
+    <header class="sec-head"><h2 data-split="words">Built to answer real questions.</h2><p data-reveal>Applied AI, language, machine learning and analytics. Scroll to flip through the deck, filter by problem type, or open any project for details.</p></header>
+    <div class="toolbar" data-reveal><div class="filters" id="filters" role="group" aria-label="Filter projects"></div><span class="count mono" id="projectCount" aria-live="polite"></span></div>
+    <div class="deck" id="projectGrid"><noscript><p>Enable JavaScript to browse projects, or visit <a href="https://github.com/dhanush0823-git">GitHub</a>.</p></noscript></div>
+    <p class="more" data-reveal>More repositories on <a href="https://github.com/dhanush0823-git" target="_blank" rel="noopener">GitHub</a>.</p>
+  </div>
+</section>
+
+<!-- RAG pinned storytelling -->
+<section class="section rag-section" id="approach" data-theme="blue">
+  <div class="rag-pin" id="ragPin">
+    <div class="wrap">
+      <header class="sec-head"><h2 data-split="words">How I think about GenAI systems.</h2><p data-reveal>Retrieval-augmented generation connects a model’s answer to relevant source material. Scroll to follow a question from documents to a grounded answer.</p></header>
+      <div class="rag" id="rag">
+        <div class="rag-rail"><i id="ragFill"></i></div>
+        <ol class="rag-steps" id="ragSteps">
+          <li class="rag-step" data-lane="Indexing"><span class="rs-n">01</span><strong>Documents</strong><small>Source content</small></li>
+          <li class="rag-step" data-lane="Indexing"><span class="rs-n">02</span><strong>Chunking</strong><small>Useful passages</small></li>
+          <li class="rag-step" data-lane="Indexing"><span class="rs-n">03</span><strong>Embeddings</strong><small>Vector encoding</small></li>
+          <li class="rag-step" data-lane="Indexing"><span class="rs-n">04</span><strong>Vector index</strong><small>FAISS-style search</small></li>
+          <li class="rag-step" data-lane="Answering"><span class="rs-n">05</span><strong>User query</strong><small>Question intent</small></li>
+          <li class="rag-step" data-lane="Answering"><span class="rs-n">06</span><strong>Top-K retrieval</strong><small>Relevant passages</small></li>
+          <li class="rag-step" data-lane="Answering"><span class="rs-n">07</span><strong>LLM response</strong><small>Context + prompt</small></li>
+          <li class="rag-step" data-lane="Answering"><span class="rs-n">08</span><strong>Grounded answer</strong><small>Clear, checkable</small></li>
+        </ol>
+        <div class="rag-read" aria-live="off"><span class="mono" id="ragLane">Indexing</span><p id="ragText">Documents are collected as the knowledge the system can draw from.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills" data-theme="blue">
+  <div class="wrap">
+    <header class="sec-head"><h2 data-split="words">My stack, in motion.</h2><p data-reveal>A practical mix of programming, analytics and applied AI. Pick a discipline, hover the orbit, and see which projects each tool powers.</p></header>
+    <div class="lab" id="lab">
+      <div class="lab-rail" id="skillTabs" role="tablist" aria-label="Skill categories"></div>
+      <div class="lab-stage"><div class="orbit-map" id="orbitMap"><div class="om-core"><strong id="omName">Py</strong><small id="omCount"></small></div></div></div>
+      <aside class="lab-read" id="skillRead" aria-live="polite"><span class="mono" id="srCat"></span><h3 id="srName"></h3><p id="srDesc"></p><div class="sr-used"><span class="mono">Used in</span><div id="srUsed"></div></div></aside>
+    </div>
+    <div class="lanes" id="skillLanes" aria-label="All tools and technologies"></div>
+    <div class="explore" data-reveal><h3>Currently exploring</h3>
+      <p><b>Deep learning &amp; LLMs</b> transformers and fine-tuning concepts</p>
+      <p><b>RAG quality</b> hybrid search, re-ranking and evaluation</p>
+      <p><b>Deployment</b> FastAPI, Docker, cloud and MLOps basics</p></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience" data-theme="lime">
+  <div class="wrap">
+    <header class="sec-head"><h2 data-split="words">Progress through real work.</h2><p data-reveal>Internships across data science, analytics and web development have shaped how I approach practical problems.</p></header>
+    <ol class="timeline" id="timeline">
+      <li class="tl-item"><span class="tl-dot"></span><div class="tl-date"><b>Mar – Jul</b>2026</div>
+        <article class="tl-card" data-tilt><span class="tl-role">Data Science Intern · Bengaluru</span><h3>PySpiders</h3><p>Built Python data pipelines with SQL integration and file handling, ran exploratory analysis with Pandas and NumPy, and wrote reusable scripts to automate recurring preprocessing.</p><div class="tags"><span>Python</span><span>SQL</span><span>Pandas</span><span>NumPy</span></div></article></li>
+      <li class="tl-item"><span class="tl-dot"></span><div class="tl-date"><b>Jul – Oct</b>2025</div>
+        <article class="tl-card" data-tilt><span class="tl-role">Data Science Intern · Chennai</span><h3>VCodez</h3><p>Analysed 30,000+ business records with SQL and Python, ran data-quality checks and cleaning, and built interactive Power BI dashboards with KPI tracking that reduced manual reporting effort by 40%.</p><div class="tags"><span>SQL</span><span>Python</span><span>Power BI</span><span>Excel</span><span>MySQL</span></div><button class="link-btn" type="button" data-open="cert" data-id="vcodez">View experience letter</button></article></li>
+      <li class="tl-item"><span class="tl-dot"></span><div class="tl-date"><b>8 – 25 Jul</b>2024</div>
+        <article class="tl-card" data-tilt><span class="tl-role">Full Stack Web Development Intern · Coimbatore</span><h3>Gateway Software Solutions</h3><p>Completed an internship in full stack web development. The company’s completion letter describes the work as hard-working and very productive.</p><div class="tags"><span>Web development</span></div><button class="link-btn" type="button" data-open="cert" data-id="gateway">View completion letter</button></article></li>
+    </ol>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section" id="education" data-theme="violet">
+  <div class="wrap">
+    <header class="sec-head"><h2 data-split="words">Academic foundation.</h2></header>
+    <div class="edu" data-reveal>
+      <div class="edu-ring" id="eduRing"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52" class="er-bg"/><circle cx="60" cy="60" r="52" class="er-fg" id="eduArc" pathLength="100"/></svg><div><strong data-count="8.05" data-decimals="2">8.05</strong><small>CGPA</small></div></div>
+      <div class="edu-body"><span class="icard-tag">Class of 2026</span><h3>B.E. Computer Science &amp; Engineering</h3><p>Hindusthan College of Engineering and Technology, Coimbatore</p>
+        <ul class="edu-list"><li>Data Science with Python — Infosys Springboard</li><li>Artificial Intelligence Fundamentals — IBM SkillsBuild</li><li>Data Analytics using Orange — Coimbatore Institute of Technology workshop</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES (horizontal pinned gallery) -->
+<section class="section certs" id="credentials" data-theme="lime">
+  <div class="certs-pin" id="certPin">
+    <div class="wrap"><header class="sec-head"><h2 data-split="words">Learning, documented.</h2><p data-reveal>Six supplied documents. Open any of them in the full-screen viewer, including the VCodez experience letter as a PDF.</p></header></div>
+    <div class="certs-viewport"><div class="certs-track" id="certTrack"></div></div>
+    <p class="wrap certs-extra">Also listed on my résumé: Data Science course (PySpiders), Python for Data Science (GUVI), Power BI Real-Time Dashboard Workshop (Office Master).</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact" data-theme="violet">
+  <div class="mesh" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="wrap">
+    <h2 class="contact-title" id="contactTitle" data-split="chars" aria-label="Have a problem worth solving?">Have a problem worth solving?</h2>
+    <p class="contact-sum" data-reveal>I’m looking for opportunities to contribute to data, analytics and applied AI teams. Send me a note and I’ll reply.</p>
+    <div class="contact-grid">
+      <a class="ccard" href="mailto:dhanushhemapriya0823@gmail.com" data-tilt data-magnetic-soft><span>Email</span><strong>dhanushhemapriya0823@gmail.com</strong></a>
+      <a class="ccard" href="https://www.linkedin.com/in/dhanush-s-784190358/" target="_blank" rel="noopener" data-tilt data-magnetic-soft><span>LinkedIn</span><strong>dhanush-s-784190358</strong></a>
+      <a class="ccard" href="https://github.com/dhanush0823-git" target="_blank" rel="noopener" data-tilt data-magnetic-soft><span>GitHub</span><strong>dhanush0823-git</strong></a>
+      <a class="ccard" href="assets/resume.pdf" target="_blank" rel="noopener" data-tilt data-magnetic-soft><span>Résumé</span><strong>Open the PDF</strong></a>
+    </div>
+    <a class="btn btn-solid btn-lg" href="mailto:dhanushhemapriya0823@gmail.com" data-magnetic>Start a conversation</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div><a class="brand" href="#home"><span class="brand-mark">DS</span><span class="brand-name">Dhanush S</span></a><p>Data Science · Machine Learning · Generative AI</p></div>
+    <nav aria-label="Footer"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#credentials">Certificates</a><a href="#contact">Contact</a></nav>
+    <div class="foot-social"><a href="https://github.com/dhanush0823-git" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/dhanush-s-784190358/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:dhanushhemapriya0823@gmail.com">Email</a></div>
+  </div>
+  <div class="wrap footer-base"><span>© <span id="year">2026</span> Dhanush S</span>
+    <button class="to-top" id="toTop" type="button" aria-label="Back to top"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" class="tt-bg"/><circle cx="24" cy="24" r="21" class="tt-fg" id="toTopArc" pathLength="100"/></svg><span class="tt-arrow">↑</span></button></div>
+</footer>
+
+<!-- Certificate / PDF viewer -->
+<div class="viewer" id="viewer" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="viewerTitle">
+  <div class="viewer-bg" data-close></div>
+  <div class="viewer-win">
+    <div class="viewer-head"><div><strong id="viewerTitle">Document</strong><small id="viewerMeta"></small></div>
+      <div class="viewer-actions"><a id="viewerOpen" href="#" target="_blank" rel="noopener">Open in new tab</a><button id="viewerZoom" type="button">Zoom</button><button id="viewerClose" type="button" aria-label="Close viewer">✕</button></div></div>
+    <div class="viewer-body" id="viewerBody"></div>
+    <button class="v-nav v-prev" id="viewerPrev" type="button" aria-label="Previous document">←</button><button class="v-nav v-next" id="viewerNext" type="button" aria-label="Next document">→</button>
+  </div>
+</div>
+
+<!-- Project detail -->
+<div class="viewer pview" id="pview" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="pvTitle">
+  <div class="viewer-bg" data-close></div>
+  <div class="viewer-win pv-win"><button class="pv-close" id="pvClose" type="button" aria-label="Close project">✕</button><div class="pv-media"><img id="pvImg" alt=""></div>
+    <div class="pv-body"><span class="icard-tag" id="pvType"></span><h3 id="pvTitle"></h3><p id="pvDesc"></p><ul id="pvPoints" class="pv-points"></ul><div class="tags" id="pvTags"></div><div class="pv-links" id="pvLinks"></div></div></div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="js/projects.js" defer></script>
+<script src="js/interactions.js" defer></script>
+<script src="js/animations.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
